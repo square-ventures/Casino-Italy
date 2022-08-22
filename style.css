@@ -1,0 +1,208 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  background-image: url(assets/mobile-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+@media screen and (min-width: 700px) {
+  body {
+    background-image: url(assets/tablet_protrait.png);
+  }
+}
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: url(assets/tablet_1024.png);
+  }
+}
+@media screen and (min-width: 1920px) {
+  body {
+    background-image: url(assets/Desktop_fullHD.png);
+  }
+}
+@media screen and (min-width: 3000px) {
+  body {
+    background-image: url(assets/desktop-4k.png);
+  }
+}
+
+.wrapper {
+  padding: 48px 20px;
+}
+
+.first-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+@media screen and (min-width: 700px) {
+  .logo {
+    width: 150px;
+    height: 64px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .logo {
+    width: 187px;
+    height: 80px;
+  }
+}
+@media screen and (min-width: 2500px) {
+  .logo {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .main-image {
+    width: 640px;
+    height: 282px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .main-image {
+    width: 720px;
+    height: 320px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .cta-button {
+    width: 186px;
+    height: 44px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .cta-button {
+    width: 237px;
+    height: 56px;
+  }
+}
+
+.steps {
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media screen and (min-width: 1024px) {
+  .steps {
+    max-width: 950px;
+    margin-inline: auto;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .steps {
+    max-width: 980px;
+    margin-top: 60px;
+    margin-inline: auto;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .step {
+    width: 146px;
+    height: 155px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .step {
+    width: 219px;
+    height: 62px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .step {
+    width: 219px;
+    height: 62px;
+  }
+}
+
+.payments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  padding-bottom: 34px;
+}
+@media screen and (min-width: 700px) {
+  .payments {
+    gap: 48px;
+  }
+}
+
+.payment {
+  height: 16px;
+}
+
+.cta-button {
+  transition: 1s all;
+}
+.cta-button:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.text-footer {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+@media screen and (min-width: 700px) {
+  .text-footer {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .text-footer {
+    max-width: 1740px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .terms-button {
+    width: 240px;
+    height: 48px;
+  }
+}/*# sourceMappingURL=style.css.map */
