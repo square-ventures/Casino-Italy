@@ -94,12 +94,14 @@ body {
   .cta-button {
     width: 186px;
     height: 44px;
+    margin-top: -30px;
   }
 }
 @media screen and (min-width: 1920px) {
   .cta-button {
     width: 237px;
     height: 56px;
+
   }
 }
 
